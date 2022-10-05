@@ -23,6 +23,7 @@ class WishController extends AbstractController
      */
     public function detail(int $id): Response
     {
+//       on affichera ici le detail des desirs
         return $this->render('wish/detail.html.twig', [
 
         ]);
